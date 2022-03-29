@@ -54,7 +54,7 @@ This is a generalized use case for robotic telesurgery.  A robotic telesurgery s
  
  | Flow ID  | Source  |  Destination | Flow Description  | Details  |
 |---|---|---|---|---|
-|   |   |   |   |   |
+| F1  | C9, C10, C11, C12, C13, C14 BioSensors  | C3 Cloud Service  | Various biosensor data; patient monitoring  | May contain PHI  |
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
@@ -65,7 +65,6 @@ This is a generalized use case for robotic telesurgery.  A robotic telesurgery s
 |   |   |   |   |   |
  
  
- <H2> Exception Flows </H2> 
  
  
  <H2> System Data Flow </H2> 
