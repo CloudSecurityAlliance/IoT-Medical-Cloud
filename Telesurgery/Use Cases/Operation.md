@@ -47,19 +47,21 @@ This is a generalized use case for robotic telesurgery.  A robotic telesurgery s
  
  <H2> Activity Diagram </H2> 
  
+ ![image](https://user-images.githubusercontent.com/10893218/160676965-f49f338f-6d20-4afd-bfb8-2fa2b6115491.png)
+
  
- 
- <H2> Use Case Flow </H2> 
+ <H2> Use Case Flows </H2> 
  
  
  
  <H2> Exception Flows </H2> 
  
  
- <H2> System Data Flows </H2> 
+ <H2> System Data Flow </H2> 
  
  
- 
+ ![image](https://user-images.githubusercontent.com/10893218/160677112-062f7ef1-b81f-4433-b82e-c149aa7e09be.png)
+
  
  <H2> References </H2>
 Rashid, A and Rahamatulla, K (2020). Cyber Security Threat Modeling of a Telesurgery System. 2020 2nd International Conference on Sustainable Technologies for Industry 4.0. 
