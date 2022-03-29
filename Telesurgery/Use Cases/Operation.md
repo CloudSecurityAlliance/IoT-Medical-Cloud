@@ -52,6 +52,17 @@ This is a generalized use case for robotic telesurgery.  A robotic telesurgery s
  
  <H2> Use Case Flows </H2> 
  
+ | Flow ID  | Source  |  Destination | Flow Description  | Details  |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
  
  
  <H2> Exception Flows </H2> 
