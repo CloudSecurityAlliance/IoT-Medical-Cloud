@@ -1,4 +1,4 @@
-** Join our Slack Channel: https://join.slack.com/t/csaiotwg/shared_invite/zt-165s7f45j-Ob7lJp5pW64hxD~gAkND7A **
+Join our Slack Channel: https://join.slack.com/t/csaiotwg/shared_invite/zt-165s7f45j-Ob7lJp5pW64hxD~gAkND7A 
 
 CSA IoTWG / MITRE Collaboration
 
