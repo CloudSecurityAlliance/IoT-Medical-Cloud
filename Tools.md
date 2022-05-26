@@ -8,5 +8,5 @@ TM File Parser: https://github.com/microsoft/tm-file-parser/releases/tag/TMFileP
 Instructions: 
 Getting started with MS Threat Modeling Tool: https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started
 
-
+MITRE Attack Flows Tool: https://github.com/center-for-threat-informed-defense/attack-flow/releases/tag/v1.0.0
 
