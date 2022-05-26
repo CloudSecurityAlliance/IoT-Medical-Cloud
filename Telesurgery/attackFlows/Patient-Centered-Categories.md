@@ -1,9 +1,9 @@
 **We want to protect the patient from harm, so we must guard against misconfigurations in the robotic device**
-Attack Flow: Attacker uploads malicious firmware to robotic device due to failure to authenticate firmware upload.  
-Attack Flow: Attacker modifies robotic device firmware through compromise of the vendor software update process (note: potential multi-patient effect)
-Attack Flow: Attacker modifies robotic device configuration file through compromise of a management system. 
-Attack Flow: Attacker modifies device configuration settings through physical access to the device
-Attack Flow: Attacker infects robotic device with virus/malicious code through cloned hard-drive, other means. 
+*Attack Flow: Attacker uploads malicious firmware to robotic device due to failure to authenticate firmware upload.  
+*Attack Flow: Attacker modifies robotic device firmware through compromise of the vendor software update process (note: potential multi-patient effect)
+*Attack Flow: Attacker modifies robotic device configuration file through compromise of a management system. 
+*Attack Flow: Attacker modifies device configuration settings through physical access to the device
+*Attack Flow: Attacker infects robotic device with virus/malicious code through cloned hard-drive, other means. 
 
 **We want to protect the patient from harm, so we must ensure the availabiity of the supporting cloud services**
 
