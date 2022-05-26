@@ -1,10 +1,12 @@
+**We want to protect the patient from harm, so we must guard against misconfigurations in the robotic device**
+Attack Flow: Attacker uploads malicious firmware to robotic device due to failure to authenticate firmware upload.  
+Attack Flow: Attacker modifies robotic device firmware through compromise of the vendor software update process (note: potential multi-patient effect)
+Attack Flow: Attacker modifies robotic device configuration file through compromise of a management system. 
+Attack Flow: Attacker modifies device configuration settings through physical access to the device
+Attack Flow: Attacker infects robotic device with virus/malicious code through cloned hard-drive, other means. 
 
-So we can’t have a misconfiguration in the configuration file 
-- upload malicious firmware/ no device authentication of firmware upload
-Compromised sw update process
-- potential multi-patient effect… 
-Physical access to system
-- xray machine drive crashed; vendor cloned machine- was infected with virus… 
+**We want to protect the patient from harm, so we must ensure the availabiity of the supporting cloud services**
+
 
 
 So we can’t have denial of service
@@ -36,3 +38,20 @@ We want to ensure the availability of the system,
 We want to include repudiation protection, so that if something goes wrong it can be traced back to the cause
 
 We want to provide privacy protection for the patient 
+
+
+
+
+
+
+
+
+
+Ransomware attacks
+- define clinical impacts
+
+Telemetry monitoring issues impacts nursing 
+
+
+
+
