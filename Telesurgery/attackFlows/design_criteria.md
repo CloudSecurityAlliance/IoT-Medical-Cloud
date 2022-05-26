@@ -9,15 +9,3 @@
 4. This project integrates the MITRE ATT&CK techniques (https://attack.mitre.org/). This will allow HDOs to leverage ATT&CK technique mitigations in an enterprise security architecture. 
 
 5. Attack flows will form the basis for a STRIDE-based threat model. Nodes in the attack flow will correspond to nodes in the STRIDE analysis. 
-
-
-
-
-
-Ransomware attacks
-- define clinical impacts
-
-Telemetry monitoring issues impacts nursing 
-
-
-
