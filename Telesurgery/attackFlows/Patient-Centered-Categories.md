@@ -15,19 +15,26 @@
 -       device telemetry, biohealth data, target the egress circuit, or the cloud endpoints
 - Attack Flow: Attacker encrypts critical file on the device through ransomware. 
 -        file to boot device, configuration file, various files could be targeted... 
-- Attack Flow: Attacker performs attack on cloud service provider (CSP) that renders services unavailable. 
--        
+- Attack Flow: Attacker performs attack on cloud service provider (CSP) that renders biohealth data unavailable. 
+-      attack on the collection of biohealth data in the cloud, or the analysis from that data back to system... 
+-      note: scope is restricted to device operations... add this to introduction... 
 - Attack Flow: Attacker performs attack on cloud provider resulting in a lack of AI capability (results in further delay to care). 
+-      note: scope is restricted to device operations... add this to introduction... 
 
 **We want to protect the patient from harm, so we must ensure that a remote clinician has an accurate view of patient status.**
-- Attack Flow: Attacker modifies bio-sensor readings through tampering with biosensor data. 
+- Attack Flow: Attacker modifies bio-sensor readings through tampering with biosensor data, or devices
+- --- most surgeries have nurse to monitor vitals; if vitals change, change course of surgery by notifying doctor; halt surgery, take medical action, etc... 
 - Attack Flow: Attacker modifies notification messages meant for the clinician through tampering with data. 
+- ----- hold on this one, get feedback first... 
 
 **We want to protect the patient from harm, so we must ensure that remote commands to the robotic device cannot be modified.**
 - Attack Flow: Attacker modifies commands sent to the device through tampering with the data. 
+- need to get confirmation from vendors, is remote link active typically for manufacturing access, updates, etc... ... 
 
 **We want to protect the patient from harm, so we must ensure the abailability of supporting communication infrastructure**
-- Attack Flow: Attacker disables wireless connectivity within the operating environment. 
+- Attack Flow: Attacker disables / disrupts network connectivity within the operating environment.
+- --- e.g., access to router, etc to turn off, change settings, etc... 
+- --- clinical impact: no telemetry, typically all in room, ask manufacturer, are commands sent to robotic system going over HDO network or through seperate manufacturer connection (eg.. cellular)  
 
 **We want to ensure that if something goes wrong in the system, that the root cause can be traced and identified**
 - Attack Flow: Attacker modifies log files within a device
@@ -35,6 +42,26 @@
 
 **We want to ensure that patient privacy is protected**
 - Attack Flow: Attacker gains unauthorized access to PHI data
+- -perhaps local data (PHI) for performance issues; 
+- --- verify with manufacturer, maybe on the hard drive, etc... 
+
+Add: Loss of power to the device... 
+- reliance of industrial control system support
+- --- Attacker modifies hvac settings in operating room
+- --- other OT devices as well... 
+- --- medical air (needed for some devices in operating room; used to mix gasses
+- ---humidity 
+- ---pressure sensors to keep positive/negative airflow to room
+- ---water needed to run 
+- ---temp regulation  
+- 
+
+
+
+Add to introduction: scope anything that would disrupt the operation would be in scope... 
+Add to introduction: our methodology - public vs theoretical attacks.... 
+
+wherever we can cite a public attack is best; 
 
 
 **Add another category for setup of attacks; staging of malicious files, etc... phishing, ... **
