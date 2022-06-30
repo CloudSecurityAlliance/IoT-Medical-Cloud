@@ -13,5 +13,8 @@ Publicly-known attacks against hospital operations and medical devices have been
 <h1> System Description </h1>
 A robotic telesurgery system is composed of two primary onsite components: (1) a surgeon console, and (2) a Robotic Platform. The system also includes a variety of biosensors and telemetry sensors, communication capabilities, cloud SaaS services, and Electronic Health Record (EHR) interfaces. A surgeon, surgeon assistant and patient all play a role in the surgical activity. Additional staff that may be present include representatives from the vendor, technicians and biomedical staff.
 
+![image](https://user-images.githubusercontent.com/10893218/176735956-c2c6ab88-b57c-4aa3-89c0-d5f7bf76b634.png)
+
+
 <h1> Contributors </h1> 
 
