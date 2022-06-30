@@ -99,7 +99,7 @@ A robotic telesurgery system is composed of two primary onsite components: (1) a
 <tr> <td> AF-017 </td> <td> Attack Flow: Attacker disrupts the medical air settings used within the operating room.  </tr> </td>
 <tr> <td> AF-017 </td> <td> Attack Flow: Attacker disrupts the humidity settings within the operating room.  </tr> </td>
 <tr> <td> AF-017 </td> <td> Attack Flow: Attacker disables water flow to the operating room. </tr> </td>
-</table>
+
 
 <th colspan = 2> We want to ensure that the attacker cannot prepare effectively for an attack against the robotic platform</th>
 <tr> <td> AF-017 </td> <td> Attack Flow: Attacker is able to scan the components on the network.  </tr> </td>
