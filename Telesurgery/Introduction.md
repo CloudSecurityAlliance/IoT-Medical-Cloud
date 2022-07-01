@@ -95,16 +95,16 @@ A robotic telesurgery system is composed of two primary onsite components: (1) a
 
 <th colspan = 2> We want to ensure that the environment of the operation is maintained</th>
 <tr> <td> AF-017 </td> <td> Attack Flow: Attacker is able to disrupt power to the room.  </tr> </td>
-<tr> <td> AF-017 </td> <td> Attack Flow: Attacker modifies the HVAC settings in the operating room, disrupting temperature  </tr> </td>
-<tr> <td> AF-017 </td> <td> Attack Flow: Attacker disrupts the medical air settings used within the operating room.  </tr> </td>
-<tr> <td> AF-017 </td> <td> Attack Flow: Attacker disrupts the humidity settings within the operating room.  </tr> </td>
-<tr> <td> AF-017 </td> <td> Attack Flow: Attacker disables water flow to the operating room. </tr> </td>
+<tr> <td> AF-018 </td> <td> Attack Flow: Attacker modifies the HVAC settings in the operating room, disrupting temperature  </tr> </td>
+<tr> <td> AF-019 </td> <td> Attack Flow: Attacker disrupts the medical air settings used within the operating room.  </tr> </td>
+<tr> <td> AF-020 </td> <td> Attack Flow: Attacker disrupts the humidity settings within the operating room.  </tr> </td>
+<tr> <td> AF-021 </td> <td> Attack Flow: Attacker disables water flow to the operating room. </tr> </td>
 
 
 <th colspan = 2> We want to ensure that the attacker cannot prepare effectively for an attack against the robotic platform</th>
-<tr> <td> AF-017 </td> <td> Attack Flow: Attacker is able to scan the components on the network.  </tr> </td>
-<tr> <td> AF-017 </td> <td> Attack Flow: Attacker is able to stage malicious files within the hospital network.  </tr> </td>
-<tr> <td> AF-017 </td> <td> Attack Flow: Attacker is able to perform a successful phishing attack on hospital personnel.  </tr> </td>
+<tr> <td> AF-022 </td> <td> Attack Flow: Attacker is able to scan the components on the network.  </tr> </td>
+<tr> <td> AF-023 </td> <td> Attack Flow: Attacker is able to stage malicious files within the hospital network.  </tr> </td>
+<tr> <td> AF-024 </td> <td> Attack Flow: Attacker is able to perform a successful phishing attack on hospital personnel.  </tr> </td>
 
 </table>
 
