@@ -1,10 +1,10 @@
-Introduction
+<h1> Introduction </h1>
 This project defines a set of attack flows tailored to a cloud-enabled telesurgery system.
 
-Project Scope
+<h1> Project Scope </h1>
 This project is focused on threats, attacks and countermeasures that are patient-safety focused. This may include any threat that would result in the disruption of an operation. This includes threats to the availability of the robotic telesurgery system, threats to the integrity and availability of bio-health and telmetry data needed to effectively operate the machinery and evaluate the status of the patient, and threats to cloud services that support diagnostic and other patient-critical functions such as machine learning and data processing.
 
-Methodology
+<h1> Methodology </h1>
 Publicly-known attacks against hospital operations and medical devices have been documented and mapped to applicable attack flows. Since the technology in review is constantly evolving, theoretical attacks have also been included. When possible, the origin of the attack flow has been marked for each flow (e.g., realized vs theoretical). Design critiria for this project include:
 
 Attack flows are patient-safety-focused. They should be designed from the perspective of protecting the patient. This will allow for easier buy-in from HDOs.
@@ -17,11 +17,11 @@ This project integrates the MITRE ATT&CK techniques (https://attack.mitre.org/).
 
 Attack flows will form the basis for a STRIDE-based threat model. Nodes in the attack flow will correspond to nodes in the STRIDE analysis.
 
-System Description
+<h1> System Description </h1>
 A robotic telesurgery system is composed of two primary onsite components: (1) a surgeon console, and (2) a Robotic Platform. The system also includes a variety of biosensors and telemetry sensors, communication capabilities, cloud SaaS services, and Electronic Health Record (EHR) interfaces. A surgeon, surgeon assistant and patient all play a role in the surgical activity. Additional staff that may be present include representatives from the vendor, technicians and biomedical staff.
 image
 
-Patient-Centered Attack Flows
+<h1> Patient-Centered Attack Flows </h1>
 We want to protect the patient from harm, so we must guard against misconfigurations / firmware tampering, etc in the robotic device.
 
 Attack flow id	Description
@@ -89,4 +89,4 @@ We want to ensure that the attacker cannot prepare effectively for an attack aga
 AF-019	Attack Flow: Attacker is able to scan the components on the network.
 AF-020	Attack Flow: Attacker is able to stage malicious files within the hospital network.
 AF-021	Attack Flow: Attacker is able to perform a successful phishing attack on hospital personnel.
-Contributors
+
