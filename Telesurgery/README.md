@@ -11,6 +11,19 @@ The GitHub repository for this information can be found at: https://github.com/c
 <h1> Scope </h1>
 This document defines attack flows that may be used to compromise a cloud-connected RAS system. Due to the limited real-world data associated with compromise of RAS systems, these flows are assembled using both real-world and theoretical techniques. 
 
+<h1> Purpose </h1> 
+This document is meant to be used by HDO CISO’s and their teams to understand the potential attacks that may be levied against a hospital’s cloud-connected RAS systems. The document and the associated repository of artifacts should: 
+
+Provide a library of modular RAS attack flows that RAS vendors can use to better understand the tactics and techniques potentially used by adversaries to compromise the integrity of commands and confidentiality of patient data used within telesurgery systems. 
+
+Provide HDOs with a tool to model and simulate attacks impacting patient safety, exfiltration of patient data, and/or lateral movement into the hospital network for ransomware deployment. Attack flows conform to the CTID schema as defined: https://ctid.mitre-engenuity.org/our-work/attack-flow/. Conformance with the schema supports machine-readability. 
+
+Provide compensating controls that mitigate the attack techniques identified in this document.
+
+Provide controls that support detection of the attack flows defined in this document. 
+
+Allocate responsibilities for detection measures and mitigations across the stakeholders involved in the cloud RAS ecosystem, including Cloud Security Providers (CSP), MDM, Health Delivery Organizations (HDO), EHR Vendor, and Patient based on the specific reference architecture.
+
 
 <h1> Methodology </h1>
 Publicly-known attacks against hospital operations and medical devices have been documented and mapped to applicable attack flows. Since the technology in review is constantly evolving, theoretical attacks have also been included. When possible, the origin of the attack flow has been marked for each flow (e.g., realized vs theoretical). 
