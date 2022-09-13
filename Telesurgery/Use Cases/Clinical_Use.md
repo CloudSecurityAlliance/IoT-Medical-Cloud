@@ -10,12 +10,5 @@ Cloud connectivity may be provided through various methods, including 5G cellula
  
  
  
- <H2> System Data Flow </H2> 
- 
- 
- ![image](https://user-images.githubusercontent.com/10893218/160677112-062f7ef1-b81f-4433-b82e-c149aa7e09be.png)
 
- 
- <H2> References </H2>
-Rashid, A and Rahamatulla, K (2020). Cyber Security Threat Modeling of a Telesurgery System. 2020 2nd International Conference on Sustainable Technologies for Industry 4.0. 
  
