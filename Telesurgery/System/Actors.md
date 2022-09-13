@@ -1,3 +1,6 @@
+The table below details the typical actors that play a role in a RAS operation. 
+
+
 | Actor ID | Actor                 | Description                                                                                                                                     |   |   |
 |----------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
 | A1       | Patient               | The patient being treated. Changes in patient condition may require modification of process flow.                                               |   |   |
