@@ -22,6 +22,3 @@ AF_001 Upload Malicious Firmware
 |
 
 
-
- ![AF_001 Upload Malicious Firwmare](https://user-images.githubusercontent.com/10893218/189976428-d9f34219-b1b7-4b3e-8456-476a7a3da216.png)
-
